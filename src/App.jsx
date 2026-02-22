@@ -1,3 +1,7 @@
+import logoBrh from './assets/brh-logo.avif';
+import logoSeashore from './assets/seashore.avif';
+import logoPartner from './assets/partner.avif';
+import logoSibup from './assets/sibup-tech.avif';
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   Zap, 
@@ -17,16 +21,13 @@ import {
 } from 'lucide-react';
 
 const ASSETS = {
-  logoBrh: "https://via.placeholder.com/200x200?text=Logo+BRH", // Substitua pelo link da logo do BRH Group
-  logoSeashore: "https://via.placeholder.com/350x100?text=Seashore", // Substitua pelo link da Seashore
-  logoPartner: "https://via.placeholder.com/350x100?text=Partner", // Substitua pelo link da Partner
-  logoSibup: "https://via.placeholder.com/300x100?text=Sibup.Tech", // Substitua pelo link da Sibup
-  heroDashboard: "https://via.placeholder.com/800x600?text=Dashboard+Tech", // Imagem do dashboard tecnológico
+  logoBrh: logoBrh,
+  logoSeashore: logoSeashore,
+  logoPartner: logoPartner,
+  logoSibup: logoSibup,
+  heroDashboard: "https://via.placeholder.com/800x600?text=Dashboard+Tech",
 };
 
-/**
- * Componente de Contador Animado
- */
 const AnimatedCounter = ({ end, duration = 2000, suffix = "" }) => {
   const [count, setCount] = useState(0);
   const elementRef = useRef(null);
@@ -59,9 +60,6 @@ const AnimatedCounter = ({ end, duration = 2000, suffix = "" }) => {
   return <span ref={elementRef} className="tabular-nums">{count}{suffix}</span>;
 };
 
-/**
- * Reveal Wrapper para animações de entrada
- */
 const Reveal = ({ children, delay = 0 }) => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);

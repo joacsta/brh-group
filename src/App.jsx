@@ -466,22 +466,19 @@ const App = () => {
               
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="space-y-8">
-                  <h2 className="text-4xl font-bold text-white uppercase tracking-tighter">Projetos Reais. <br />Transformação Real.</h2>
+                  <h2 className="text-4xl font-bold text-white uppercase tracking-tighter">Espaço para destacar um projeto. <br /></h2>
                   <div className="p-8 bg-slate-950 rounded-2xl border border-white/5 shadow-xl">
                     <p className="text-xl text-slate-300 leading-relaxed italic mb-8">
-                      “Empresa de manufatura global reduziu custos de energia em 27% em 12 meses através de monitoramento inteligente e redesenho de sistemas.”
+                      “Aqui, posso colocar um relatorio ou um parantese do que o projeto fez e/ou representou para a empresa.”
                     </p>
                     <div className="flex items-center gap-4">
                       <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center font-bold text-white text-sm tracking-widest shadow-lg shadow-red-600/20">BRH</div>
                       <div>
-                        <div className="font-bold text-white uppercase tracking-wider text-xs">Projeto Titan II</div>
+                        <div className="font-bold text-white uppercase tracking-wider text-xs">Projeto Um</div>
                         <div className="text-sm text-slate-500">Setor Industrial & Logístico</div>
                       </div>
                     </div>
                   </div>
-                  <button className="flex items-center text-red-500 font-bold hover:text-white transition-colors group px-8 py-4 border border-red-500 rounded-full hover:bg-red-500 transition-all uppercase text-xs tracking-widest font-black">
-                    Ver Cases de Sucesso <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-2 transition-transform" />
-                  </button>
                 </div>
                 
                 <div className="relative">

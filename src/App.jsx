@@ -133,13 +133,14 @@ const App = () => {
                 O Futuro da Inteligência Energética
               </div>
               <h1 className="text-5xl lg:text-7xl font-bold text-slate-900 leading-[1.1] tracking-tight">
-                Transformando Energia em <span className="text-red-600">Inteligência</span>, Eficiência e Impacto.
+                Transformando seu Negócio com <span className="text-red-600">Inteligência</span>, Eficiência e Impacto.
               </h1>
             </Reveal>
 
             <Reveal delay={300}>
               <p className="text-xl text-slate-600 leading-relaxed">
-                Projetamos e implementamos soluções energéticas avançadas através do nosso ecossistema de empresas especialistas, acelerando a transição para um futuro sustentável.
+                Um grupo com empresas e iniciativas voltadas para a eficiência energética, impulsionadas pela tecnologia, inteligência e criatividade, para transformar mercados e gerar impacto sustentável,
+                atuando como uma ferramenta para o desenvolvimento da sociedade.
               </p>
             </Reveal>
 
